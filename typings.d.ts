@@ -38,3 +38,10 @@ declare module 'meteor/tmeasday:publish-counts' {
 
   export const Counts: CountsObject;
 }
+
+declare module "meteor/accounts-base" {
+  module Accounts {
+    function requestPhoneVerification(phone: string, func: Function): void;
+    function verifyPhone(phone: string, code: string, func?: Function): void;
+  }
+}
