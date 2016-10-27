@@ -4,7 +4,7 @@ import { Party } from "../../../../both/models/party.model";
 import { Meteor } from "meteor/meteor";
 
 @Pipe({
-    name: 'displayMainImage'
+    name: 'amDisplayMainImage'
 })
 export class DisplayMainImagePipe implements PipeTransform {
     transform(party: Party) {

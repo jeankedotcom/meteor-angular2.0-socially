@@ -28,7 +28,7 @@
                     <div *ngFor="let party of parties | async">
                         <md-card>
                             <md-card-content>
-                                <img *ngIf="party.images" class="party-main-image" [src]="party | displayMainImage">
+                                <img *ngIf="party.images" class="party-main-image" [src]="party | amDisplayMainImage">
                                 <h2 class="md-title ma-name">
                                     <a [routerLink]="['/party', party._id]">{{party.name}}</a>
                                 </h2>
@@ -39,15 +39,15 @@
                                     <div layout="row" layout-align="end end">
                                         <div>
                                             <div class="rsvps-sum">
-                                                <div class="rsvps-amount">{{party | rsvp:'yes'}}</div>
+                                                <div class="rsvps-amount">{{party | amRsvp:'yes'}}</div>
                                                 <div class="rsvps-title">Yes</div>
                                             </div>
                                             <div class="rsvps-sum">
-                                                <div class="rsvps-amount">{{party | rsvp:'maybe'}}</div>
+                                                <div class="rsvps-amount">{{party | amRsvp:'maybe'}}</div>
                                                 <div class="rsvps-title">Maybe</div>
                                             </div>
                                             <div class="rsvps-sum">
-                                                <div class="rsvps-amount">{{party | rsvp:'no'}}</div>
+                                                <div class="rsvps-amount">{{party | amRsvp:'no'}}</div>
                                                 <div class="rsvps-title">No</div>
                                             </div>
                                         </div>

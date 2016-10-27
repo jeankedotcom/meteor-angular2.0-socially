@@ -5,7 +5,7 @@
 </ion-header>
 <ion-content>
     <ion-card *ngFor="let party of parties | async">
-        <img *ngIf="party.images" [src]="party | displayMainImage">
+        <img *ngIf="party.images" [src]="party | amDisplayMainImage">
         <ion-card-content>
             <ion-card-title>
                 {{party.name}}
@@ -18,13 +18,13 @@
         <ion-row no-padding>
             <ion-col text-right>
                 <ion-badge>
-                    yes {{party | rsvp:'yes'}}
+                    yes {{party | amRsvp:'yes'}}
                 </ion-badge>
                 <ion-badge item-center dark>
-                    maybe {{party | rsvp:'maybe'}}
+                    maybe {{party | amRsvp:'maybe'}}
                 </ion-badge>
                 <ion-badge item-center danger>
-                    no {{party | rsvp:'no'}}
+                    no {{party | amRsvp:'no'}}
                 </ion-badge>
             </ion-col>
         </ion-row>

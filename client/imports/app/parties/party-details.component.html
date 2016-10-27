@@ -26,7 +26,7 @@
                 <md-list>
                     <div class="md-no-sticky">Users to invite:</div>
                     <md-list-item *ngFor="let user of users | async">
-                        <div>{{ user | displayName }}</div>
+                        <div>{{ user | amDisplayName }}</div>
                         <button (click)="invite(user)" md-raised-button class="md-raised">Invite</button>
                     </md-list-item>
                 </md-list>

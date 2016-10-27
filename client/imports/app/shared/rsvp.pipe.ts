@@ -3,7 +3,7 @@ import { Party } from "../../../../both/models/party.model";
 import { Parties } from "../../../../both/collections/parties.collection";
 
 @Pipe({
-    name: 'rsvp'
+    name: 'amRsvp'
 })
 export class RsvpPipe implements PipeTransform {
     transform(party: Party, type: string): number {
