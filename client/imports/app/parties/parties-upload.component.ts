@@ -1,7 +1,7 @@
 import {Component, OnInit, EventEmitter, Output} from '@angular/core';
 
-import template from './parties-upload.component.html';
-import style from './parties-upload.component.scss';
+import * as template from './parties-upload.component.html';
+import * as style from './parties-upload.component.scss';
 
 import { upload } from '../../../../both/methods/images.methods';
 import {Subject, Subscription, Observable} from "rxjs";
@@ -11,8 +11,8 @@ import {Thumbs} from "../../../../both/collections/images.collection";
 
 @Component({
   selector: 'parties-upload',
-  template,
-  styles: [ style ]
+  template: template.default,
+  styles: [ style.default ]
 })
 export class PartiesUploadComponent implements OnInit {
   fileIsOver: boolean = false;

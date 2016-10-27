@@ -1,5 +1,5 @@
 import {Component} from "@angular/core";
-import template from "./app.component.mobile.html";
+import * as template from "./app.component.mobile.html";
 import {MenuController, Platform, App} from "ionic-angular";
 import {PartiesListMobileComponent} from "./parties-list.component.mobile";
 
@@ -9,7 +9,7 @@ if (Meteor.isCordova) {
 
 @Component({
   selector: "app",
-  template
+  template: template.default
 })
 export class AppMobileComponent {
   rootPage: any;

@@ -14,13 +14,13 @@ import { Party } from '../../../../both/models/party.model';
 import { Users } from '../../../../both/collections/users.collection';
 import { User } from '../../../../both/models/user.model';
 
-import template from './party-details.component.html';
-import style from './party-details.component.scss';
+import * as template from './party-details.component.html';
+import * as style from './party-details.component.scss';
 
 @Component({
   selector: 'party-details',
-  template,
-  styles: [ style ]
+  template: template.default,
+  styles: [ style.default ]
 })
 @InjectUser('user')
 export class PartyDetailsComponent implements OnInit, OnDestroy {

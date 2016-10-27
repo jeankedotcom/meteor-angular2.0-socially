@@ -4,11 +4,11 @@ import { Meteor } from 'meteor/meteor';
 
 import { Parties } from '../../../../both/collections/parties.collection';
 
-import template from './parties-form.component.html';
+import * as template from './parties-form.component.html';
 
 @Component({
   selector: 'parties-form',
-  template
+  template: template.default
 })
 export class PartiesFormComponent implements OnInit {
   addForm: FormGroup;

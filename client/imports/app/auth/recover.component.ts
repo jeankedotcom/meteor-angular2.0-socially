@@ -3,11 +3,11 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Accounts } from 'meteor/accounts-base';
 
-import template from './recover.component.html';
+import * as template from './recover.component.html';
 
 @Component({
   selector: 'recover',
-  template
+  template: template.default
 })
 export class RecoverComponent implements OnInit {
   recoverForm: FormGroup;
