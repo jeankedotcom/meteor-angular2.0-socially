@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f1d6a0e9-a79e-4ea5-9322-2dc79a2b1c14" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,18 +26,7 @@
     <favorites_list name="meteor-angular2.0-socially" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="parties-list.component.mobile.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/imports/app/mobile/parties-list.component.mobile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -87,6 +76,7 @@
         <option value="$PROJECT_DIR$/client/imports/app/shared/rsvp.pipe.ts" />
         <option value="$PROJECT_DIR$/client/imports/app/mobile/parties-list.component.mobile.html" />
         <option value="$PROJECT_DIR$/client/imports/app/parties/parties-list.component.html" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -127,6 +117,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,7 +132,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,7 +232,8 @@
       <workItem from="1477529254888" duration="7525000" />
       <workItem from="1477551052429" duration="754000" />
       <workItem from="1477746786140" duration="352000" />
-      <workItem from="1477747383711" duration="28000" />
+      <workItem from="1477747383711" duration="126000" />
+      <workItem from="1477750719481" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="GOt rid of typescript warnings for Accounts.">
       <created>1477533137790</created>
@@ -265,11 +256,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477551647034</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ran meteor update.">
+      <created>1477747478112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1477747478112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8659000" />
+    <option name="totallyTimeSpent" value="8781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,9 +280,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1932" height="1085" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25224274" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25224274" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33782384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -369,7 +367,8 @@
     <MESSAGE value="Keeping Webstorm happy by using default of template or style when importing html or css." />
     <MESSAGE value="Fixing TSLint ng2styleguide 03-05 and putting it in .idea reformat settings." />
     <MESSAGE value="Keeping TSLint happy, adding &quot;am&quot; prefix on pipes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Keeping TSLint happy, adding &quot;am&quot; prefix on pipes." />
+    <MESSAGE value="Ran meteor update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ran meteor update." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,6 +384,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/imports/app/mobile/parties-list.component.mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/imports/app/mobile/parties-list.component.mobile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -444,13 +451,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typings/jalik-ufs.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -690,6 +690,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
           <folding />
         </state>
       </provider>
