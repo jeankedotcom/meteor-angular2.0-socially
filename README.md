@@ -5,6 +5,12 @@
 [{]: <region> (body)
 # Socially - A Meteor-Angular Tutorial App
 
+|Build|Status|
+|---|---|
+|CI|![CI](https://build.osiris-platform.com/app/rest/builds/buildType:(id:Osiris_AngularMeteorSample_01Build)/statusIcon)|
+|Package|![Package](https://build.osiris-platform.com/app/rest/builds/buildType:(id:Osiris_AngularMeteorSample_02Package)/statusIcon)|
+|Deploy|![Deploy](https://build.osiris-platform.com/app/rest/builds/buildType:(id:Osiris_AngularMeteorSample_03DeployToOsirisPlay)/statusIcon)|
+
 This tutorial serves as a comprehensive introduction to writing applications with Meteor and Angular.
 
 We will tap into the power of both frameworks and their eco-systems to write quality applications in a fraction of the time.
