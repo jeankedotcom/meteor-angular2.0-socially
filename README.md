@@ -3,13 +3,17 @@
 
 [}]: #
 [{]: <region> (body)
-# Socially - A Meteor-Angular Tutorial App
+# Socially - A Meteor-Angular 2 Tutorial App
 
 |Build|Status|
 |---|---|
 |CI|![CI](https://build.osiris-platform.com/app/rest/builds/buildType:(id:Osiris_AngularMeteorSample_01Build)/statusIcon)|
 |Package|![Package](https://build.osiris-platform.com/app/rest/builds/buildType:(id:Osiris_AngularMeteorSample_02Package)/statusIcon)|
 |Deploy|![Deploy](https://build.osiris-platform.com/app/rest/builds/buildType:(id:Osiris_AngularMeteorSample_03DeployToOsirisPlay)/statusIcon)|
+
+[![bitHound Overall Score](https://www.bithound.io/github/Urigo/meteor-angular2.0-socially/badges/score.svg)](https://www.bithound.io/github/Urigo/meteor-angular2.0-socially) [![bitHound Dependencies](https://www.bithound.io/github/Urigo/meteor-angular2.0-socially/badges/dependencies.svg)](https://www.bithound.io/github/Urigo/meteor-angular2.0-socially/master/dependencies/npm)
+
+- [Start the tutorial @ angular-meteor.com](https://www.angular-meteor.com/tutorials/socially/angular2/bootstrapping)
 
 This tutorial serves as a comprehensive introduction to writing applications with Meteor and Angular.
 

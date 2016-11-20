@@ -39,9 +39,9 @@ declare module 'meteor/tmeasday:publish-counts' {
   export const Counts: CountsObject;
 }
 
-declare module "meteor/accounts-base" {
+declare module 'meteor/accounts-base' {
   module Accounts {
-    function requestPhoneVerification(phone: string, func: Function): void;
-    function verifyPhone(phone: string, code: string, func?: Function): void;
+    function requestPhoneVerification(phoneNumber: string, callback?: Function): void;
+    function verifyPhone(phoneNumber: string, code: string, callback?: Function): void;
   }
 }
