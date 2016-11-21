@@ -1,1 +1,1 @@
-FROM hub.osiris-platform.com/jshimko/meteor-launchpad:20161102
+FROM hub.osiris-platform.com/jshimko/meteor-launchpad:v1.1.1
