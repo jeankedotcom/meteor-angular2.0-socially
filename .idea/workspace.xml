@@ -315,7 +315,7 @@
       <workItem from="1479760992814" duration="2148000" />
       <workItem from="1479764350761" duration="92000" />
       <workItem from="1479764564697" duration="1000000" />
-      <workItem from="1479851075777" duration="59000" />
+      <workItem from="1479851075777" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="GOt rid of typescript warnings for Accounts.">
       <created>1477533137790</created>
@@ -373,11 +373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479764388052</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed title to check the build chain.">
+      <created>1479851230288</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1479851230288</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12764000" />
+    <option name="totallyTimeSpent" value="12881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,7 +442,8 @@
     <MESSAGE value="Updated meteor-launchpad version." />
     <MESSAGE value="Updated meteor and meteor-launchpad version." />
     <MESSAGE value="Updated all-packages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated all-packages." />
+    <MESSAGE value="Changed title to check the build chain." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed title to check the build chain." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
